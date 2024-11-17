@@ -11,7 +11,7 @@ spec:
     requests:
       storage: 5Gi
 ---
-# Pod gets the storage through the pvc from pv
+# Pod gets the storage through pvc from pv
 apiVersion: v1
 kind: Pod
 metadata:
