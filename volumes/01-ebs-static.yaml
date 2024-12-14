@@ -11,7 +11,7 @@ spec:
   csi:
     driver: ebs.csi.aws.com
     fsType: ext4
-    volumeHandle: vol-0e6731be4148b6a4f
+    volumeHandle: vol-067b06d715c3076d4
 ---
 # claim/request for storage
 apiVersion: v1
@@ -27,7 +27,7 @@ spec:
     requests:
       storage: 5Gi
 ---
-# Pod gets the storage through the pvc from pv
+# Pod gets the storage through pvc from pv
 apiVersion: v1
 kind: Pod
 metadata:
